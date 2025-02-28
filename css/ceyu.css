@@ -1,0 +1,35 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.gero-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 40px 40px rgba(166, 172, 202, 0.603);
+    background-color: #fff;
+    border: 4px dashed rgba(59, 82, 212, 0.575);
+    z-index: 9999;
+}
+
+.back-drop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(152, 147, 228, 0.3);
+    height: 100vh;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 999;
+}
